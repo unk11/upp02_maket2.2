@@ -1,0 +1,987 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+.body{
+    
+    width: 1440px;
+    height: 7068px;
+}
+@media screen and (max-width: 769px) {
+    header {
+        display: none;
+    }
+    .mobile-ostrov{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-left: 20px;
+    }
+}
+    .ucheba{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .time{
+        margin-right: 60px;
+    }
+    .low{
+        margin-left: 40px;
+        display: flex; 
+        gap: 5px;
+    }
+    .engl{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .socia{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .sc-cours{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        
+    }
+    .search-school{
+        max-width: 320px;
+    }
+    .more{
+        margin-top: 25px;
+        
+    }
+    @media screen and (max-width: 360px) {
+        .onephoto{
+            display: none;
+        }
+        
+    }@media screen and (max-width: 360px) {
+        .lalala{
+            display: none;
+        }
+        
+    }
+    @media screen and (min-width: 769px) {
+        .mobile-ostrov {
+            display: none;
+    }
+        .engl {
+            display: none;
+    }
+        .socia {
+            display: none;
+    }
+        .sc-cours{
+            display: none;
+        }
+        .search-school{
+            display: none;
+        }
+        .maxtext{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 360px) {
+        .katalogSCOOL{
+            display: none;
+        }
+        .soci2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px;
+        }
+    }
+    @media screen and (max-width: 360px) {
+        .hot{
+            display: none;
+        }
+        .hotpredl{
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            font-family: Montserrat;
+            font-weight: bolder;
+            margin-top: 15px;
+        }
+    
+    }
+    @media screen and (max-width: 360px) {
+        .inf{
+            display: none;
+        }
+        .ochenpolezninf{
+            font-size: 18px;
+            margin: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-family: Montserrat;
+        }
+    
+    }
+    @media screen and (max-width: 360px) {
+        .mnogo{
+            display: none;
+        }
+        
+    
+    }
+    @media screen and (max-width: 360px) {
+        .polezninf{
+            display: none;
+        }
+        
+    
+    }
+    @media screen and (min-width: 360px) {
+        .budzhet{
+            display: none;
+        }
+        .chelik{
+            border-radius: 5px;
+            border: 1px solid #1c09ad;
+            margin:15px;
+        }
+    
+    }
+    @media screen and (min-width: 769px) {
+        .soci2 {
+            display: none;
+    }
+}
+    @media screen and (min-width: 769px) {
+        .ucheba {
+            display: none;
+    }
+}
+    @media screen and (min-width: 769px) {
+        .hotpredlozhenya {
+            display: none;
+    }
+}
+    @media screen and (min-width: 769px) {
+        .ochenpolezninf {
+            display: none;
+    }
+}
+    @media screen and (min-width: 769px) {
+        .cont{
+            display: none;
+    }
+}
+  
+
+@media screen and (min-width: 769px) {
+    .hideall{
+        display: none;
+}
+}
+@media screen and (max-width: 360px) {
+    .hide{
+        display: none;
+    }
+}
+@media screen and (max-width: 360px) {
+    .hidden{
+        display: none;
+    }
+}
+@media screen and (min-width: 769px) {
+    .hideman{
+        display: none;
+    }
+}
+    .konec-mob{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .quest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tgvs{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin-left:110px;
+        margin-top:30px;
+    }
+    .chhel{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    button .podbor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 40px;
+        color: blue;
+    }
+    .podbery{
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wepodbor{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .numb{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .numb2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .popularcourse{
+        font-size: 18px;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-family: Montserrat;
+    }
+    .popcourse{
+        font-size: 12px;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: light;
+        font-family: Montserrat;
+    }
+    .kontakti{
+        font-size: 18px;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-family: Montserrat;
+    }
+    .sochi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .polit{
+        font-size: 12px;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: light;
+        font-family: Montserrat;
+    }
+    .karta{
+        border-radius: 5px;
+        border: 1px solid #1c09ad;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 400px;
+        justify-content: space-evenly;
+        margin-left: 30px;
+    }
+    .podrobnee{
+        width: 200px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .make{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: lighter;
+        font-family: Montserrat;
+    }
+    .maxname{
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-family: Montserrat;
+    }
+    .hothot{
+        width: 300px;
+        
+    }
+    .hotredlozh{
+        font-size: 18px;
+        margin: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-family: Montserrat;
+    }
+.header{
+    width: 1440px;
+    height: 82px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    gap: 175px;
+}
+.sch{
+    display: inline-flex;
+    padding: 6px 17px;
+    align-items: flex-start;
+    gap: 5px;
+    border-radius: 30px;
+    background: var(--Colour-1, #4361EE);
+    color: var(--White, #FFF);
+    /* Text */
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100px;
+    border: solid 1px;
+}
+    .school{
+        display: flex;
+        gap: 44px;
+        align-items: center;
+    }
+    .school {
+        color: #000;
+        font-family: Fira Sans;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        padding-right: 69px;
+    }
+    .logo{
+        padding-left: 85px;
+        padding-right: 60px;
+    }
+    .sc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.photo{
+    background:url(img/Rectangle\ 34625474.png)lightgray 50% / cover no-repeat;;
+    width: 1440px;
+    height: 689px;
+    margin: 0 auto;
+}
+.photo h1{
+font-family: Montserrat;
+font-size: 58px;
+font-style: normal;
+font-weight: 600;
+line-height: 65px; /* 112.069% */
+color: var(--White, #FFF);
+text-align: center;
+padding-top: 168px
+}
+.search{
+    width: 869px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: var(--white, #FFF);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+    gap: 35px   ;
+}
+.poisk1 .tip{
+    width: 105px;
+    color: var(--black, #000);
+    /* zagolovok poiska */
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    display: flex;
+    align-items: center;
+
+}
+.poisk1 .off{
+    color: var(--gray-500, #6B7280);
+    /* Stroka poiska */
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    display: flex;
+    align-items: center;
+}
+.asd{
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.lupa{
+    padding-left: 50px;
+}
+.katalog{
+    width: 329px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: var(--White, #FFF);
+    box-shadow: 10px 30px 50px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    margin-top: 228px;
+    align-items: center;
+    display: flex;
+}
+.katalogschool{
+    width: 252px;
+    height: 60px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.maksim{
+    display: flex;
+    width: 1440px;
+    gap: 98.57px;
+    margin-left: 200px;
+}
+.maksim h1{
+    flex-shrink: 0;
+    color: var(--Text-Colour-2, #2B2B2B);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px; /* 117.5% */
+    padding-top: 214px;
+    text-align: left;
+}
+.icreate{
+    color: var(--Text-Colour-2, #2B2B2B);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 475px;
+}
+.onephoto{
+    width: 597px;
+    height: 343px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    padding-top: 214px;
+}
+.twophoto{
+    width: 1200px;
+    height: 350px;
+    flex-shrink: 0;
+}
+.photo2 .onephoto{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.lololo{
+    width: 1200px;
+    height: 350px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+}
+.katalogSCOOL{
+    width: 1440px;
+    height: 2091px;
+    flex-shrink: 0;
+    background: #FBFBFB;
+    margin: 0 auto;
+}
+.katalogSCOOL h2{
+    color: var(--Black, #0E0B33);
+    /* H2 - Semi Bold */
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px; /* 117.5% */
+    padding-left: 120px;
+    margin-bottom: 44px;
+    
+}
+.kataloghead {
+    display: flex;
+    gap: 416px;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.kartochkaschool{
+    width: 368px;
+    height: 480px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--Grey-Grey-5, #ECEFF4);
+    background: var(--Black-White, #FFF);
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+
+}
+.kartochkaschool .fon{
+    width: 366px;
+    height: 192px;
+    flex-shrink: 0;
+    border-radius: 8px 8px 0px 0px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.age{
+    color: var(--Primary-Primary-3, #777795);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    letter-spacing: 0.4px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.language{
+    width: 320px;
+    color: var(--Text-Colour-2, #2B2B2B);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.6px;
+    margin-left: 20px;
+}
+.product{
+    width: 320px;
+    color: var(--Grey-Grey-2, #4D4D4D);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-left: 20px;
+}
+.price{
+    color: var(--Text-Colour-3, #808080);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 36px */
+    margin-top: 35px;
+ 
+}
+.bolee{
+    margin-top: 46px;
+}
+.podrobnee{
+    color: var(--Colour-1, #4361EE);
+    text-align: right;
+    /* H5 - Buttons */
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+    display: flex;
+    gap: 154px;
+}
+.vsekartocki{
+    display: flex;
+}
+.vsekartocki2{
+    display: flex;
+}
+.vsekartocki3{
+    display: flex;
+}
+.pages{
+    width: 363px;
+    height: 52px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding-top: 63px;
+    display: flex;
+    align-items: center;
+}
+.pages .svg{
+    width: 32px;
+height: 32px;
+transform: rotate(90deg);
+flex-shrink: 0;
+}
+.pages .one{
+    color: var(--Black, #0E0B33);
+font-family: Fira Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+.pages .two{
+    color: var(--White, #FFF);
+font-family: Fira Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+
+}
+.obvodka02 .two{
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--Blue, #4D54F0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.pages{
+    gap: 25px;
+}
+.pages .three{
+    color: var(--Black, #0E0B33);
+font-family: Fira Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+
+}
+.pages .four{
+    color: var(--Black, #0E0B33);
+font-family: Fira Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+}
+.pages .five{
+    color: var(--Black, #0E0B33);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+}
+.hot{
+    margin: 0 auto;
+    width: 1440px;
+    background: #FBFBFB;
+    
+}
+.price{
+    margin-left: 170px; 
+    
+}
+.predlozheniya{
+    display: flex;
+    gap: 780px;
+    align-items: center;
+
+}
+.predl{
+    font-size: 40px;
+}
+.allppredl{
+    font-size: 16px;
+    color: #2B2B2B;
+}
+.fire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+} 
+.useful{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 40px;
+    
+}
+.first{
+    width: 368px;
+    height: 421px;
+    border: 1px solid #ECEFF4;
+    border-radius: 15px;
+}
+.polezn{
+    font-size: 24px;
+}
+.twopolezn{
+    font-size: 16px;
+}
+.polezntext{
+    margin-left: 5px;
+    width: 300px;
+    margin: 15px;
+}
+button{
+    border-radius: 8px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #2B2B2B;
+    margin-top: 20px;
+    margin: 15px;
+}
+.god{
+    margin: 0 auto;
+    width: 1440px;
+    background: #FBFBFB;
+    display: flex;
+    align-items: center;
+    gap: 825px;
+    margin-top: 250px;
+}
+.inf{
+    font-size: 40px;
+    margin-left: 60px;
+}
+.pervkart{
+    width:  368px;
+    height: 360px;
+    border: 1px solid #ECEFF4;
+    border-radius: 15px;
+}
+.cardd{
+    margin: 0 auto;
+    width: 1440px;
+    background: #FBFBFB;
+    border-radius: 15px;
+}
+.skazat{
+    width: 346px;
+    height: 56px;
+    font-size: 24px;
+    margin: 15px;
+}
+.poleznost2{
+    display: flex;
+    margin-left: 40px;
+    gap: 120px;
+    margin-top: 60px;
+}
+.poleznost{
+    display: flex;
+    margin-left: 40px;
+    gap: 120px;
+    margin-top: 60px;
+}
+.june{
+    margin: 15px;
+}
+.budzhet{
+    margin: 0 auto;
+    width: 1440px;
+    height: 669px;
+    background: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sinfon{
+    width: 1199px;
+    height: 260px;
+    border-radius: 40px;
+    background: #4361EE;
+    margin-top: 30px;
+    display: flex;
+    
+}
+.chel{
+    margin-left: 20px;
+}
+.your{
+    color: white;
+    font-size: 40px;
+    width: 300px;
+    height: 70px;
+    margin-top: 50px;
+}
+.chena{
+    color: white;
+    font-size: 16px;
+    width: 300px;
+    height: 34px;
+    margin-top: 20px;
+}
+.text21{
+    margin-left: 30px;
+}
+.buttwo{
+    margin-left: 120px;
+    margin-top: 65px;
+    width: 246px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: #FFF;
+}
+.zayavka{
+    color: #4361EE;
+    font-weight: bold;
+}
+.onl{
+    width: 156px;
+    color: white;
+}
+.online{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 120px;
+    gap: 5px;
+}
+footer{
+    margin: 0 auto;
+    width: 1440px;
+    height: 250px;
+    background: #222222;
+    display: flex;
+    
+}
+
+.eng{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.phone{
+    color: white;
+}
+.tel{
+    display: flex;
+    gap: 5px;
+}
+.ppoctha{
+    display: flex;
+    gap: 5px;
+}
+.mail{
+    color: white;
+}
+.prog{
+    color: white;
+}
+.parent{
+    width: 170px;
+}
+.ph{
+    width: 75px;
+    height: 25px;
+}
+.prnt{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 60px;
+}
+.contacts{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    width: 170px;
+    line-height: 60px;
+}
+.otctyp{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+    margin-left: 150px;
+}
+.angl{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 60px;
+}
+.cntc{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 60px;
+}
+.knc{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.konec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 50px;
+    background: #222222;
+    gap: 540px;
+}
+.pol{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.corse{
+    display: flex;
+    width: 200px;
+}
